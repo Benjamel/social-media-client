@@ -1,5 +1,5 @@
-Social Media Client
+# Social Media Client
 
-Workflow Course Assignment
+## Workflow
 
-How to install
+### Course Assignment
