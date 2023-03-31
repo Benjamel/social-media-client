@@ -10,7 +10,9 @@
     "test-unit": "jest",
     "test-e2e": "cypress open",
     "test-e2e-cli": "cypress run",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "keywords": [],
   "author": "Noroff",
