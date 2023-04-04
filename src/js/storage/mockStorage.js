@@ -1,6 +1,6 @@
 export class mockLocalStorage {
   constructor() {
-    this.value = {};
+    this.value = new Map();
   }
 
   removeItem(key) {
