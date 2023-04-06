@@ -22,3 +22,6 @@ jobs:
 
       - name: Run Tests
         run: npm run test-unit
+
+      - name: Run without any tests
+        run: --passWithNoTests
