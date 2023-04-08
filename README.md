@@ -31,7 +31,6 @@ npm install
 ```
 npm run build
 ```
-```
 
 To run the app, run the following commands:
 
