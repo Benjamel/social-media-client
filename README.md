@@ -2,6 +2,11 @@
 
 ![image](https://user-images.githubusercontent.com/82838871/230717347-698ee5df-2f4f-45bf-bc41-2d890d1e51ba.png)
 
+## Tests
+
+[![Deploy static content to Pages](https://github.com/Benjamel/social-media-client/actions/workflows/pages.yml/badge.svg?branch=workflow)](https://github.com/Benjamel/social-media-client/actions/workflows/pages.yml)
+[![Unit Testing with Jest](https://github.com/Benjamel/social-media-client/actions/workflows/unit-testing.yml/badge.svg)](https://github.com/Benjamel/social-media-client/actions/workflows/unit-testing.yml)
+[![End to End Testing with Cypress](https://github.com/Benjamel/social-media-client/actions/workflows/e2e-testing.yml/badge.svg)](https://github.com/Benjamel/social-media-client/actions/workflows/e2e-testing.yml)
 
 ## Description
 
