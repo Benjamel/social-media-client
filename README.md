@@ -1,4 +1,4 @@
-# Workflow Couse Assignment 
+# Workflow Course Assignment 
 
 ![image](https://user-images.githubusercontent.com/82838871/230717347-698ee5df-2f4f-45bf-bc41-2d890d1e51ba.png)
 
