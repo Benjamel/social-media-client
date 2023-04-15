@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: Checkout under $GITHUB_WORKSPACE
         uses: actions/checkout@main
+        
+      - name: Environment variables
+        run: echo '${{ secrets.CYPRESS_ENV }}' > cypress.env.json
 
       - name: Environment variables
         run: echo '${{ secrets.CYPRESS_ENV }}' > cypress.env.json
