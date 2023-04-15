@@ -1,12 +1,7 @@
-const user = {
-  email: 'benjatesting@noroff.no',
-  password: 'testing1234',
-};
-
 describe('Invalid credentials login test', () => {
   beforeEach(() => {
     cy.visit('https://benjamel.github.io/social-media-client/');
-    cy.wait(2000);
+    cy.wait(1000);
   });
 
   it('Login with invalid credentials', () => {
