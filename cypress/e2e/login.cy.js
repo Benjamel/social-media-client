@@ -1,3 +1,8 @@
+const user = {
+  email: 'benjatesting@noroff.no',
+  password: 'testing1234',
+};
+
 describe('User can login with valid credentials', () => {
   beforeEach(() => {
     cy.visit('https://benjamel.github.io/social-media-client/');
@@ -13,11 +18,9 @@ describe('User can login with valid credentials', () => {
       .click();
     cy.wait(500);
 
-    cy.get("input#loginEmail[name='email']").type(Cypress.env('email'));
+    cy.get("input#loginEmail[name='email']").type(user.email);
 
-    cy.get("input#loginPassword[name='password']").type(
-      Cypress.env('password')
-    );
+    cy.get("input#loginPassword[name='password']").type(user.password);
 
     cy.get("button[type='submit']")
       .should('be.visible')
