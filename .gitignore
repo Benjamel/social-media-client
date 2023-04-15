@@ -2,4 +2,3 @@
 /dist
 .eslintcache
 .prettierrc.json
-.cypress.env.json
